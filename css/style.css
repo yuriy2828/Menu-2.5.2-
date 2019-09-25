@@ -1,0 +1,27 @@
+body {margin: 0;}
+
+ul {
+    list-style: none; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    transition: .5s linear;
+    padding: 1em;
+    display: block;
+    border-right: 1px;
+    border: 1px solid black;
+}
+
+a:hover {background-color: skyblue;}
+
+nav {
+    display: block;
+    margin: 0 auto 30px;
+    width: 660px;
+}
